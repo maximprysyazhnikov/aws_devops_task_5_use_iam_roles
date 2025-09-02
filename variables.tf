@@ -11,7 +11,7 @@ variable "security_group_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t3.micro" # у eu-north-1 підходить для free tier
+  default     = "t2.micro" # у eu-north-1 підходить для free tier
 }
 
 variable "key_pair_name" {
